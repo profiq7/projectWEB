@@ -1,0 +1,48 @@
+
+/* form corners */
+.form-1 {background:#F1F1F1 url(../img/face-tl.png)/*tpa=http://shop.mts.by/sites/all/themes/base/html/images/face-tl.png*/ no-repeat 0 0;}
+.form-2 {background:url(../img/face-tr.png)/*tpa=http://shop.mts.by/sites/all/themes/base/html/images/face-tr.png*/ no-repeat 100% 0;}
+.form-3 {background:url(../img/face-br.png)/*tpa=http://shop.mts.by/sites/all/themes/base/html/images/face-br.png*/ no-repeat 100% 100%;}
+.form-4 {background:url(../img/face-bl.png)/*tpa=http://shop.mts.by/sites/all/themes/base/html/images/face-bl.png*/ no-repeat 0 100%;}
+.form-1 #user-register,
+.form-1 #user-pass,
+.form-1 #user-login,
+.form-1 #twitter_linking_accounts,
+.form-1 #vkoauth_linking_accounts,
+.form-1 #fboauth_linking_accounts{
+	background:none;
+	border-radius:0;
+	}
+
+
+/* side filter corners */
+
+#wrapper #container .sidebar #block-mts-3,
+#wrapper #container .sidebar #block-mts-4 {
+/*	background:#F9F2D4 url(../img/images/face-filters-t.png) no-repeat 0 0;*/
+	border-radius:0;
+	padding:0;
+	width:210px;
+	}
+	#wrapper #container .sidebar #block-mts-3 > .block-inner,
+	#wrapper #container .sidebar #block-mts-4 > .block-inner {
+		/*background:url(../img/images/face-filters-b.png) no-repeat 0 100%;*/
+		padding:20px;
+		}
+
+
+/* tarifs */
+.tariffs-page .tariff-item-bg1 {
+	background:url(../img/face-brd-tl.png)/*tpa=http://shop.mts.by/sites/all/themes/base/html/images/face-brd-tl.png*/ no-repeat 0 0;
+	position:relative;
+	margin:-1px;
+	}
+.tariffs-page .tariff-item-bg2 {background:url(../img/face-brd-tr.png)/*tpa=http://shop.mts.by/sites/all/themes/base/html/images/face-brd-tr.png*/ no-repeat 100% 0;}
+.tariffs-page .tariff-item-bg3 {background:url(../img/face-brd-br.png)/*tpa=http://shop.mts.by/sites/all/themes/base/html/images/face-brd-br.png*/ no-repeat 100% 100%;}
+.tariffs-page .tariff-item-bg4 {background:url(../img/face-brd-bl.png)/*tpa=http://shop.mts.by/sites/all/themes/base/html/images/face-brd-bl.png*/ no-repeat 0 100%;}
+
+
+/* form-checkboxes */
+.form-checkboxes > .form-item {
+	padding:0 0 0 19px !important;
+	}
